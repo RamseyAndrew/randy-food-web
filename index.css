@@ -1,0 +1,41 @@
+.navigation {
+    width: 100%;
+    border: 1px solid rgb(33, 30, 30);
+    background-color: bisque;
+    border-radius: 20px;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    top: 0%;
+}
+
+h1 {
+    color: rgb(37, 10, 101);
+}
+
+p {
+    color: chocolate;
+}
+
+body {
+    background-image: url(images/logo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.fooditem{
+    border: 3px solid burlywood; width: 200px; height: 200px;
+}
+.foodlist{display: flex;flex-wrap: wrap; gap: 80px; align-items: center;}
+.footer{background-color: bisque;
+align-content: center;
+bottom: 0%;
+border: 5px solid  ;}
